@@ -26,27 +26,28 @@ body, html {
     height: 200px;
     display: flex;
     justify-content: center;
-    
+    align-items: center;
 }
 
 
 
-.div1 {
+#div1 {
     color: white;
     background-color: red;
 }
 
-.div2 {
+#div2 {
     color: white;
     background-color: blue;
 }
 
-.div3 {
+#div3 {
     color: white;
     background-color: aqua;
 }
 
-.div4 {
+
+#div4 {
     color: white;
     background-color: beige;
 }
