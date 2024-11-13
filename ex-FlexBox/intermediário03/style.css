@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.item {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+
+.div1 {
+    color: white;
+    background-color: red;
+}
+
+.div2 {
+    color: white;
+    background-color: blue;
+}
+
+.div3 {
+    color: white;
+    background-color: aqua;
+}
+
+.div4 {
+    color: white;
+    background-color: beige;
+}
