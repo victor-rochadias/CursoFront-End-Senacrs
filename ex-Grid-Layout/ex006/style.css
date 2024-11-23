@@ -1,0 +1,40 @@
+body {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: auto 1fr auto;
+    grid-template-areas:
+        "header header"
+        "sidebar content"
+        "footer footer";
+    grid-gap: 5px;
+}
+
+header {
+    grid-area: header;
+    background-color: rgb(172, 141, 141);
+    color: white;
+}
+
+nav {
+    grid-area: sidebar;
+    background-color: rgb(79, 79, 92);
+    color: white;
+}
+
+nav ul li a {
+    color: white;
+}
+
+main {
+    grid-area: content;
+    background-color: rgb(102, 91, 91);
+    color: white;
+}
+
+footer {
+    grid-area: footer;
+    background-color: rgb(54, 52, 52);
+    color: white;
+}
+
