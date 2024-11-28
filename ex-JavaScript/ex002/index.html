@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 2</title>
+</head>
+<body>
+    <h1>Exercício - Swhitch</h1>
+
+    <script>
+        function converteNota(nota) {
+            switch (nota) {
+                case 0:
+                    return "Nota F"
+                    break;
+                case 1:
+                    return "Nota E"
+                    break;
+                case 2:
+                    return "Nota D"
+                    break;
+                case 3: 
+                    return "Nota C"
+                    break;
+                case 4: 
+                    return "Nota B"
+                    break;
+                
+                case 5:
+                    return "Nota A"
+                    break;
+
+                default: 
+                    return "Sua nota deve estar entre A e F"
+            }
+        }
+        console.log(converteNota(5))
+    </script>
+</body>
+
+</html>
